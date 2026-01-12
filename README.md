@@ -23,16 +23,30 @@ Currently, I am in the learning and practice phase, working with various tools a
 - **NumPy**: 수치 계산 및 배열 연산 / Numerical computing and array operations
 - **Pandas**: 데이터 분석 및 조작 / Data analysis and manipulation
 - **DateTime**: 날짜 및 시간 처리 / Date and time processing
+- **yfinance**: Yahoo Finance에서 주식 데이터 가져오기 / Fetching stock data from Yahoo Finance
+- **FinanceDataReader**: 한국 주식 데이터 가져오기 / Fetching Korean stock data
+- **Matplotlib**: 데이터 시각화 / Data visualization
 
 ## 파일 구조 / File Structure
 
+### 기본 연습 파일 / Basic Practice Files
 - `numpypractice.py`: NumPy 기본 연산 및 금융 데이터 예제 / NumPy basic operations and financial data examples
-- `pandaspractice.py`: Pandas를 이용한 데이터 처리 연습 / Data processing practice using Pandas
-- `daytimepractice.py`: Python datetime 모듈 연습 / Python datetime module practice
 - `numpydatetime.py`: NumPy datetime64 및 타임존 처리 연습 / NumPy datetime64 and timezone handling practice
+- `daytimepractice.py`: Python datetime 모듈 연습 / Python datetime module practice
+- `pandaspractice.py`: Pandas를 이용한 데이터 처리 연습 / Data processing practice using Pandas
+- `pandasseries.py`: Pandas Series 연습 / Pandas Series practice
+- `pandasdataframe.py`: Pandas DataFrame 연습 및 예제 / Pandas DataFrame practice and examples
+
+### 금융 데이터 / Financial Data
+- `financedatareader.py`: yfinance와 FinanceDataReader를 사용한 주식 데이터 수집 및 시각화 / Stock data collection and visualization using yfinance and FinanceDataReader
+- `stocks.txt`: 수집된 주식 데이터 텍스트 파일 / Collected stock data text file
+- `1yearstocksexample/`: 주식 가격 그래프 이미지 (AAPL, GOOGL, NVDA, PLTR) / Stock price graph images (AAPL, GOOGL, NVDA, PLTR)
 
 ## 개발 환경 / Development Environment
 
-- Python
+- Python 3.13
 - NumPy
 - Pandas
+- yfinance
+- FinanceDataReader
+- Matplotlib
