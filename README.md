@@ -36,6 +36,8 @@ Currently, I am in the learning and practice phase, working with various tools a
 - `pandaspractice.py`: Pandas를 이용한 데이터 처리 연습 / Data processing practice using Pandas
 - `pandasseries.py`: Pandas Series 연습 / Pandas Series practice
 - `pandasdataframe.py`: Pandas DataFrame 연습 및 예제 / Pandas DataFrame practice and examples
+- `missingvalues.py`: 결측치 처리 연습 (isna, dropna, fillna, ffill, bfill) / Missing values handling practice (isna, dropna, fillna, ffill, bfill)
+- `shiftfunction.py`: 시계열 데이터 shift 함수 연습 (lag, lead) / Time series data shift function practice (lag, lead)
 
 ### 금융 데이터 / Financial Data
 - `financedatareader.py`: yfinance와 FinanceDataReader를 사용한 주식 데이터 수집 및 시각화 / Stock data collection and visualization using yfinance and FinanceDataReader
