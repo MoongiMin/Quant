@@ -29,22 +29,25 @@ Currently, I am in the learning and practice phase, working with various tools a
 
 ## 파일 구조 / File Structure
 
+모든 학습 파일은 `learning/` 디렉토리에 있습니다.
+All learning files are located in the `learning/` directory.
+
 ### 기본 연습 파일 / Basic Practice Files
-- `numpypractice.py`: NumPy 기본 연산 및 금융 데이터 예제 / NumPy basic operations and financial data examples
-- `numpydatetime.py`: NumPy datetime64 및 타임존 처리 연습 / NumPy datetime64 and timezone handling practice
-- `daytimepractice.py`: Python datetime 모듈 연습 / Python datetime module practice
-- `pandaspractice.py`: Pandas를 이용한 데이터 처리 연습 / Data processing practice using Pandas
-- `pandasseries.py`: Pandas Series 연습 / Pandas Series practice
-- `pandasdataframe.py`: Pandas DataFrame 연습 및 예제 / Pandas DataFrame practice and examples
-- `dataframeindexing.py`: DataFrame 인덱싱 방법 연습 (df[], df.loc[], df.iloc[]) / DataFrame indexing methods practice (df[], df.loc[], df.iloc[])
-- `pct_change.py`: 백분율 변화량 계산 연습 (pct_change(), shift()) / Percentage change calculation practice (pct_change(), shift())
-- `missingvalues.py`: 결측치 처리 연습 (isna, dropna, fillna, ffill, bfill) / Missing values handling practice (isna, dropna, fillna, ffill, bfill)
-- `shiftfunction.py`: 시계열 데이터 shift 함수 연습 (lag, lead) / Time series data shift function practice (lag, lead)
+- `learning/numpypractice.py`: NumPy 기본 연산 및 금융 데이터 예제 / NumPy basic operations and financial data examples
+- `learning/numpydatetime.py`: NumPy datetime64 및 타임존 처리 연습 / NumPy datetime64 and timezone handling practice
+- `learning/daytimepractice.py`: Python datetime 모듈 연습 / Python datetime module practice
+- `learning/pandaspractice.py`: Pandas를 이용한 데이터 처리 연습 / Data processing practice using Pandas
+- `learning/pandasseries.py`: Pandas Series 연습 / Pandas Series practice
+- `learning/pandasdataframe.py`: Pandas DataFrame 연습 및 예제 / Pandas DataFrame practice and examples
+- `learning/dataframeindexing.py`: DataFrame 인덱싱 방법 연습 (df[], df.loc[], df.iloc[]) / DataFrame indexing methods practice (df[], df.loc[], df.iloc[])
+- `learning/pct_change.py`: 백분율 변화량 계산 연습 (pct_change(), shift()) / Percentage change calculation practice (pct_change(), shift())
+- `learning/missingvalues.py`: 결측치 처리 연습 (isna, dropna, fillna, ffill, bfill) / Missing values handling practice (isna, dropna, fillna, ffill, bfill)
+- `learning/shiftfunction.py`: 시계열 데이터 shift 함수 연습 (lag, lead) / Time series data shift function practice (lag, lead)
 
 ### 금융 데이터 / Financial Data
-- `financedatareader.py`: yfinance와 FinanceDataReader를 사용한 주식 데이터 수집 및 시각화 / Stock data collection and visualization using yfinance and FinanceDataReader
-- `stocks.txt`: 수집된 주식 데이터 텍스트 파일 / Collected stock data text file
-- `1yearstocksexample/`: 주식 가격 그래프 이미지 (AAPL, GOOGL, NVDA, PLTR) / Stock price graph images (AAPL, GOOGL, NVDA, PLTR)
+- `learning/financedatareader.py`: yfinance와 FinanceDataReader를 사용한 주식 데이터 수집 및 시각화 / Stock data collection and visualization using yfinance and FinanceDataReader
+- `learning/stocks.txt`: 수집된 주식 데이터 텍스트 파일 / Collected stock data text file
+- `learning/1yearstocksexample/`: 주식 가격 그래프 이미지 (AAPL, GOOGL, NVDA, PLTR) / Stock price graph images (AAPL, GOOGL, NVDA, PLTR)
 
 ## 개발 환경 / Development Environment
 
